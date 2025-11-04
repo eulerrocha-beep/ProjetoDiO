@@ -3,7 +3,7 @@ const nome = "Volsung";
 const xp = 10001;
 
 
-if (Xp <= 1000) {
+if (xp <= 1000) {
     elo = "Ferro";
 } else if (xp >= 1001 && Xp <= 2000) {
     elo = "Bronze";
@@ -20,5 +20,6 @@ if (Xp <= 1000) {
 } else if (xp >= 10001) {
     elo = "Radiante";
 }
+
 
 console.log(`O jogador ${nome} possui ${Xp} pontos de experiência e seu elo é ${Elo}.`);
