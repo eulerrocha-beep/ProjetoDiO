@@ -21,4 +21,5 @@ if (Xp <= 1000) {
     elo = "Radiante";
 }
 
+
 console.log(`O jogador ${nome} possui ${Xp} pontos de experiência e seu elo é ${Elo}.`);
