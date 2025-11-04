@@ -1,24 +1,24 @@
-let Elo = "";
-let nome = "Volsung";
-let Xp = 10001;
+let elo = "";
+const nome = "Volsung";
+const xp = 10001;
+
 
 if (Xp <= 1000) {
-    Elo = "Ferro";
-} else if (Xp >= 1001 && Xp <= 2000) {
-    Elo = "Bronze";
-} else if (Xp >= 2001 && Xp <= 5000) {
-    Elo = "Prata";
-} else if (Xp >= 5001 && Xp <= 7000) {
-    Elo = "Ouro";
-} else if (Xp >= 7001 && Xp <= 8000) {
-    Elo = "Platina";
-} else if (Xp >= 8001 && Xp <= 9000) {
-    Elo = "Ascendente";
-} else if (Xp >= 9001 && Xp <= 10000) {
-    Elo = "Imortal";
-} else if (Xp >= 10001) {
-    Elo = "Radiante";
+    elo = "Ferro";
+} else if (xp >= 1001 && Xp <= 2000) {
+    elo = "Bronze";
+} else if (xp >= 2001 && Xp <= 5000) {
+    elo = "Prata";
+} else if (xp >= 5001 && Xp <= 7000) {
+    elo = "Ouro";
+} else if (xp >= 7001 && Xp <= 8000) {
+    elo = "Platina";
+} else if (xp >= 8001 && Xp <= 9000) {
+    elo = "Ascendente";
+} else if (xp >= 9001 && Xp <= 10000) {
+    elo = "Imortal";
+} else if (xp >= 10001) {
+    elo = "Radiante";
 }
 
 console.log(`O jogador ${nome} possui ${Xp} pontos de experiência e seu elo é ${Elo}.`);
-
